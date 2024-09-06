@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">MyEcommerce</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="login.html"><i class="fa-regular fa-user"></i> Login</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
+            <li><a href="menu.html"><i class="fa-solid fa-bars"></i> Menu</a></li>
+            <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Exit</a></li>
+
+        </ul>
+        
+    </nav>
+
+    <header>
+        <h1>Your Shopping Cart</h1>
+    </header>
+    <main>
+        <section class="cart-items">
+            <div class="cart-item">
+                <img src="img\leather.jpg" alt="Item 1">
+                <h2>Item 1</h2>
+                <p>Price: $10.00</p>
+                <input type="number" value="1" min="1">
+                <button>Remove</button>
+            </div>
+            <div class="cart-item">
+                <img src="img\shoe2.jpg" alt="Item 2">
+                <h2>Item 2</h2>
+                <p>Price: $15.00</p>
+                <input type="number" value="1" min="1">
+                <button>Remove</button>
+            </div>
+            <div class="cart-item">
+                <img src="img\shoe3.jpg" alt="Item 3">
+                <h2>Item 3</h2>
+                <p>Price: $20.00</p>
+                <input type="number" value="1" min="1">
+                <button>Remove</button>
+            </div>
+        </section>
+        <section class="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Total: $45.00</p>
+            <button>Checkout</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 E-commerce Website</p>
+    </footer>
+</body>
+</html>
